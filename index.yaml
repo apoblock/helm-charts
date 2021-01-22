@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  goweb-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-22T14:30:00.713704-08:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.helm.sh/stable
+      version: 1.6.9
+    - name: redis
+      repository: https://charts.helm.sh/stable
+      version: 10.5.7
+    description: A Helm chart for goweb-app
+    digest: 41ea072fbeee63be2b91a8df03002551649090eb41f3fbf6e97a6aa591d6393f
+    name: goweb-app
+    type: application
+    urls:
+    - goweb-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-22T14:30:00.704811-08:00"
